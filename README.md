@@ -18,14 +18,14 @@ Example command: `python3 compare_models.py --prompt "I need a formal request to
 
 ---
 
-#### Question 1: `Which Transformer component most directly enables parallel training, and why?`
+### Question 1: `Which Transformer component most directly enables parallel training, and why?`
 
 Simple answer: `Self-attention`. \
 Explored `why?` answers in [Model Comparison Results File](output/q1_transformer_components.md)
 
 ---
 
-#### Question 2: `After comparing system prompts, list three recurring design patterns you observed.`
+### Question 2: `After comparing system prompts, list three recurring design patterns you observed.`
 
 Recurring design patterns I personally noticed were:
 
@@ -39,7 +39,7 @@ Recurring design patterns I personally noticed were:
 
 ---
 
-#### Question 3: `How did different models vary in tone, length, or factuality for the same prompt?`
+### Question 3: `How did different models vary in tone, length, or factuality for the same prompt?`
 
 > <b>Friendly check</b>: [`Heyy! Can you please help me understand self-attention in simple terms? Thank you`](output/friendly_test_prompts.md) \
 > <b>Formal check</b>: [`I need a formal request to get an approval for attached document in email.`](output/formal_test_prompts.md) \
