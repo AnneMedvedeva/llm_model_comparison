@@ -1,5 +1,7 @@
-# ai_model_comparison
+# LLM Compare Models
 Python program that compares responses from different AI models via OpenRouter
+
+<i>(Note: the `compare_models.py` program was written with the help of <b>Claude</b>) <i>
 
 
 ---
