@@ -78,7 +78,7 @@ Recurring design patterns I personally noticed were:
 ##### <b>Gemini 2.0 (google/gemini-2.0-flash-001)</b>
 
 > <b>Tone</b>: adaptive, longer sentences, formal mostly\
-> <b>Length</b>: Average word count: ~208 (more expanded on technical prompts, less on creative non-technical prompts)\
+> <b>Length</b>: Average word count: ~460 (more expanded on technical prompts, less on creative non-technical prompts)\
 > <b>Format</b>: Formatting in longer sentences, including lists and bullet points in most cases\
 > <b>Factuality</b>: Standard✅ | Current✅ | Riddle✅
 
