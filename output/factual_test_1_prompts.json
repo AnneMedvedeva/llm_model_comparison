@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "prompt": "When was the first moon landing, and which country achieved it?",
+    "models": [
+      "openai/gpt-3.5-turbo",
+      "anthropic/claude-3.5-haiku",
+      "meta-llama/llama-3.3-70b-instruct",
+      "deepseek/deepseek-chat-v3-0324",
+      "google/gemini-2.0-flash-001"
+    ],
+    "timestamp": "2025-08-15 21:44:21",
+    "total_models": 5,
+    "successful_responses": 5
+  },
+  "results": [
+    {
+      "success": true,
+      "model": "openai/gpt-3.5-turbo",
+      "response": "The first moon landing took place on July 20, 1969, and it was achieved by the United States. The Apollo 11 mission successfully landed astronauts Neil Armstrong and Edwin \"Buzz\" Aldrin on the moon.",
+      "latency": 1.0897619724273682,
+      "tokens": {
+        "prompt": 20,
+        "completion": 45,
+        "total": 65
+      }
+    },
+    {
+      "success": true,
+      "model": "anthropic/claude-3.5-haiku",
+      "response": "The first moon landing was achieved by the United States on July 20, 1969, during the Apollo 11 mission. Astronauts Neil Armstrong and Buzz Aldrin became the first humans to land and walk on the moon, while Michael Collins remained in orbit around the moon in the command module. Neil Armstrong was the first person to step on the lunar surface, famously saying \"That's one small step for man, one giant leap for mankind\" as he did so.",
+      "latency": 2.9418461322784424,
+      "tokens": {
+        "prompt": 20,
+        "completion": 104,
+        "total": 124
+      }
+    },
+    {
+      "success": true,
+      "model": "meta-llama/llama-3.3-70b-instruct",
+      "response": "The first moon landing was achieved by the United States on July 20, 1969. NASA's Apollo 11 mission successfully landed astronauts Neil Armstrong and Edwin \"Buzz\" Aldrin on the surface of the Moon, while Michael Collins remained in orbit around the Moon in the command module. Armstrong became the first person to set foot on the Moon, famously declaring \"That's one small step for man, one giant leap for mankind\" as he stepped off the lunar module Eagle onto the Moon's surface.",
+      "latency": 6.06079888343811,
+      "tokens": {
+        "prompt": 23,
+        "completion": 102,
+        "total": 125
+      }
+    },
+    {
+      "success": true,
+      "model": "deepseek/deepseek-chat-v3-0324",
+      "response": "The first moon landing was achieved by the **United States** with the **Apollo 11** mission. The lunar module, named **\"Eagle,\"** landed on the Moon on **July 20, 1969**, at **20:17 UTC**. \n\nAstronauts **Neil Armstrong** and **Buzz Aldrin** became the first humans to walk on the lunar surface, with Armstrong famously saying:  \n*\"That's one small step for [a] man, one giant leap for mankind.\"*  \n\nThe mission was a major milestone in the **Space Race** between the U.S. and the Soviet Union during the Cold War. The third crew member, **Michael Collins**, remained in lunar orbit aboard the command module. \n\nThis historic event was broadcast live to millions worldwide and remains a landmark achievement in space exploration. 🚀🌕",
+      "latency": 12.041015863418579,
+      "tokens": {
+        "prompt": 16,
+        "completion": 175,
+        "total": 191
+      }
+    },
+    {
+      "success": true,
+      "model": "google/gemini-2.0-flash-001",
+      "response": "The first moon landing was on **July 20, 1969**, and it was achieved by the **United States of America** as part of the Apollo 11 mission.\n",
+      "latency": 1.1799848079681396,
+      "tokens": {
+        "prompt": 13,
+        "completion": 41,
+        "total": 54
+      }
+    }
+  ]
+}

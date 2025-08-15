@@ -51,9 +51,8 @@ def main():
     DEFAULT_MODELS = [
         "openai/gpt-3.5-turbo",
         "anthropic/claude-3.5-haiku",
-        "meta-llama/llama-3.3-70b-instruct:free",
-        # "x-ai/grok-3",
-        "deepseek/deepseek-chat-v3-0324:free",
+        "meta-llama/llama-3.3-70b-instruct",
+        "deepseek/deepseek-chat-v3-0324",
         "google/gemini-2.0-flash-001"
     ]
     
