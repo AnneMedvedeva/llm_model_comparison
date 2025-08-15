@@ -41,10 +41,17 @@ Recurring design patterns I personally noticed were:
 
 #### Question 3: `How did different models vary in tone, length, or factuality for the same prompt?`
 
+> <b>Friendly check</b>: [`Heyy! Can you please help me understand self-attention in simple terms? Thank you`](output/friendly_test_prompts.md) \
+> <b>Formal check</b>: [`I need a formal request to get an approval for attached document in email.`](output/formal_test_prompts.md) \
+> <b>Creative non-technical</b>: [`Hello, I need 3 ideas for children storybook`](output/creative_test_prompts.md) \
+> <b>Creative technical</b>: [`Explain transformers to a 5‑year‑old (as in AI/LLM transformer)`](output/q4_comparison.md) \
+> <b>Technical</b>: [`Explain photosynthesis to a college student`](output/q3_comparison.md)
+
+
 > Factual checks varied:
-> - <b>Standard historical data</b>: `When was the first moon landing, and which country achieved it?`
-> - <b>Current data</b>: `As of 2025, who is the CEO of Tesla?`
-> - <b>Riddle test</b>: `Riddle used from: https://medium.com/@htobochnik/mathematical-problem-solving-that-chatgpt-cant-do-a3c83e935c6b`
+> - <b>Standard historical data</b>: [`When was the first moon landing, and which country achieved it?`](output/factual_test_1_prompts.md)
+> - <b>Current data</b>: [`As of 2025, who is the CEO of Tesla?`](output/factual_test_2_prompts.md)
+> - <b>Riddle test</b>: `Riddle used from: https://medium.com/@htobochnik/mathematical-problem-solving-that-chatgpt-cant-do-a3c83e935c6b` [Result Output](output/solving_riddle_test_prompts.md)
 
 
 ##### <b>GPT 3.5 (openai/gpt-3.5-turbo)</b>
